@@ -24,15 +24,6 @@ To build and run the site locally, you'll need:
 * Gem sass-globbing, scss_lint
 
 
-* _src/inc/head.html now includes CDN links for the main GSAP packages (Tweenlite, Timelinelite, CSSPlugin, and Easepack)
-
-* We are also including the ScrubGSAPTimeline utility which allows using the mouse to scrub through a timeline.
-
-To build Banner Video
-
-* PhantomJS
-* FFMpeg
-
 ## Installation
 
 `npm install` for node_modules
