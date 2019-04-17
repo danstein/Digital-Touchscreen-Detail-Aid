@@ -1,0 +1,109 @@
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+.nav {
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  position: absolute;
+  z-index: 8;
+}
+
+.active-states {
+  bottom: 0;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+
+.active {
+  display: block;
+  height: 60px;
+  margin: 0;
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+
+  &.home {
+    left: 0;
+    width: 211px;
+  }
+
+  &.euridis {
+    left: 210px;
+    width: 362px;
+  }
+
+  &.clinical {
+    left: 573px;
+    width: 362px;
+  }
+
+  &.athena {
+    left: 935px;
+    width: 288px;
+  }
+
+  &.initiation {
+    left: 1223px;
+    width: 233px;
+  }
+
+  &.dosing {
+    left: 1456px;
+    width: 233px;
+  }
+
+  &.summary {
+    left: 1689px;
+    width: 233px;
+  }
+}
+
+.eur-btn {
+  // background-color: rgba(100, 250, 100, 0.3);
+  height: 75px;
+  left: 50px;
+  position: absolute;
+  top: 540px;
+  width: 300px;
+}
+
+.clin-btn {
+  // background-color: rgba(100, 250, 100, 0.3);
+  height: 75px;
+  left: 50px;
+  position: absolute;
+  top: 652px;
+  width: 300px;
+}
+
+.ath-btn {
+  // background-color: rgba(100, 250, 100, 0.3);
+  height: 75px;
+  left: 860px;
+  position: absolute;
+  top: 540px;
+  width: 300px;
+}
+
+.init-btn {
+  // background-color: rgba(100, 250, 100, 0.3);
+  height: 75px;
+  left: 860px;
+  position: absolute;
+  top: 652px;
+  width: 300px;
+}
+
+.dose-btn {
+  // background-color: rgba(100, 250, 100, 0.3);
+  height: 230px;
+  left: 1606px;
+  position: absolute;
+  top: 518px;
+  width: 280px;
+}

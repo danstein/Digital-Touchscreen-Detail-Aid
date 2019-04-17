@@ -1,0 +1,114 @@
+// ==========================================================================
+// Layouts
+// ==========================================================================
+
+.touch-screen {
+  display: block;
+  height: 1080px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+
+  .page-border & {
+    border-top: #b2205e solid 15px;
+  }
+}
+
+.ss1 {
+  display: block;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+}
+
+.ss2 {
+  display: block;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.ss3 {
+  display: block;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+}
+
+.isi-btn {
+  // background-color: rgba(50, 200, 200, 0.3);
+  height: 44px;
+  left: 1725px;
+  position: absolute;
+  top: 776px;
+  width: 180px;
+
+  &.up {
+    top: 726px;
+  }
+
+  &.down {
+    top: 816px;
+  }
+}
+
+.refs-btn {
+  // background-color: rgba(200, 50, 200, 0.3);
+  height: 56px;
+  left: 1725px;
+  position: absolute;
+  top: 822px;
+  width: 180px;
+
+  &.up {
+    top: 770px;
+  }
+
+  &.down {
+    top: 860px;
+  }
+}
+
+.study-design-btn {
+  // background-color: rgba(200, 50, 200, 0.3);
+  height: 56px;
+  left: 146px;
+  position: absolute;
+  top: 680px;
+  width: 280px;
+}
+
+.study-design2-btn {
+  // background-color: rgba(200, 50, 200, 0.3);
+  height: 56px;
+  left: 146px;
+  position: absolute;
+  top: 680px;
+  width: 280px;
+}
+
+.adverse-events-btn {
+  // background-color: rgba(200, 50, 200, 0.3);
+  height: 56px;
+  left: 446px;
+  position: absolute;
+  top: 680px;
+  width: 210px;
+}
+
+.adverse-events2-btn {
+  // background-color: rgba(200, 50, 200, 0.3);
+  height: 56px;
+  left: 446px;
+  position: absolute;
+  top: 680px;
+  width: 210px;
+}
+
+.is-hidden {
+  display: none;
+  opacity: 0;
+}

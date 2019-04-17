@@ -1,0 +1,120 @@
+// =============================================================================
+// Modals
+// =============================================================================
+
+.modal {
+  bottom: 0;
+  display: none;
+  height: 1046px;
+  left: 27px;
+  margin: 0 auto;
+  opacity: 0;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+  width: 1854px;
+  z-index: 10;
+
+  &-close {
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    right: 38px;
+    top: 36px;
+    width: 50px;
+    z-index: 10;
+  }
+
+  &-close-isi {
+    // background-color: rgba(100, 250, 100, 0.3);
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    right: -40px;
+    top: 17px;
+    width: 170px;
+    z-index: 10;
+  }
+
+  &-overlay {
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    transition: 0.5s ease-in-out;
+
+    &::after {
+      background-color: #000;
+      content: '';
+      display: block;
+      height: 1080px;
+      left: 0;
+      opacity: 0.6;
+      position: fixed;
+      top: 0;
+      width: 1920px;
+      z-index: 9;
+
+    }
+
+    &.special {
+      opacity: 0;
+
+      &::after {
+        background-color: #000;
+        content: '';
+        display: block;
+        height: 1020px;
+        left: 0;
+        opacity: 0.6;
+        position: fixed;
+        top: 0;
+        width: 1920px;
+        z-index: 6;
+
+      }
+    }
+  }
+
+  &-content-isi {
+    bottom: -124px;
+    left: -27px;
+    position: relative;
+  }
+
+  &.is-visible {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.modal-isi {
+  top: 1090px;
+  z-index: 7;
+}
+
+.chart-content {
+  height: 876px;
+  left: 138px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 169px;
+}
+
+.chart2-content {
+  height: 876px;
+  left: 180px;
+  overflow-y: scroll;
+  position: absolute;
+  top: 169px;
+}
+
+.isi-content {
+  height: 774px;
+  left: 0;
+  overflow-y: scroll;
+  position: absolute;
+  top: 86px;
+}

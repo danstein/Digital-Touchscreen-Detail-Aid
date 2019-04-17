@@ -1,0 +1,68 @@
+// ==========================================================================
+// Screens
+// ==========================================================================
+
+.screen {
+  position: relative;
+  width: 100%;
+
+  &-center {
+    text-align: center;
+  }
+
+  .nav {
+    text-align: left;
+
+    img {
+      margin-left: 140px;
+      margin-top: 40px;
+    }
+  }
+
+  .profile {
+    margin-bottom: 20px;
+    position: relative;
+    top: -25px;
+
+    img {
+      width: 250px;
+    }
+  }
+
+  .count-down {
+    color: #b41e5b;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -55px;
+  }
+
+  .indication-content {
+    position: relative;
+    text-align: center;
+    top: -55px;
+    width: 100%;
+  }
+
+  .video-container {
+    background-color: #000;
+    float: left;
+    height: 900px;
+    width: 1600px;
+
+    video {
+      height: 900px;
+      width: 1600px;
+    }
+  }
+
+  .isi {
+    background: #fff;
+    float: right;
+    height: 1080px;
+    overflow: hidden;
+    padding: 10px;
+    width: 320px;
+  }
+}
