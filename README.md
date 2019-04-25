@@ -10,7 +10,7 @@ GIT:
 
 
 **Sizes**
-- [width] x [height]
+- 1920 x 1080
 
 ## Build requirements
 
@@ -28,7 +28,7 @@ To build and run the site locally, you'll need:
 
 `npm install` for node_modules
 
-`packages.json` must be filled in correctly by Developers
+`packages.json` must be filled in correctly by developer(s)
 
 
 ### FFMPEG

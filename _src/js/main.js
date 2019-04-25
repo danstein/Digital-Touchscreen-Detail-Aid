@@ -80,6 +80,7 @@ function navigateTo(target) {
   $(navIndex).css('opacity', '1');
 }
 
+// *************************** //
 
 $('.nav, .screen-home, .screen-euridis, .screen-clinical, .screen-athena, .screen-initiation, .screen-dosing, .screen-summary').hide();
 
